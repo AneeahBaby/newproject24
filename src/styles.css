@@ -27,7 +27,7 @@ header {
     background-size: cover;
     color: rgb(236, 225, 210);
     text-align: center;
-    padding: 260px
+    padding: 260px;
 }
 .container {
     max-width: 1400px;
@@ -48,4 +48,29 @@ header {
     header {
         padding: 60px 0;
     }
+ }
+ footer {
+    color: azure;
+    background-image: linear-gradient(rgba(39,32,68,0.8), rgba(39,32,68,0.9)), url("../images/houston3.jpeg");
+    background-repeat: no repeat;
+    background-size: cover;
+    padding: 80px,0;
+    
+    
+ }
+footer h3 {
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+ }
+ a {
+    color: lightblue;
+    text-decoration: none;
+ }
+.container2 {
+    padding: 50px
+}
+ section {
+    max-width: 1200px;
+    margin: 0 auto;
  }
