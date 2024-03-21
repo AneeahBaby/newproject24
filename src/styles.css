@@ -54,10 +54,18 @@ header {
     background-image: linear-gradient(rgba(39,32,68,0.8), rgba(39,32,68,0.9)), url("../images/houston3.jpeg");
     background-repeat: no repeat;
     background-size: cover;
-    padding: 80px,0;
-    
-    
+    padding: 100px, 0px;
+
  }
+ footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 2;
+}
 footer h3 {
 font-weight: 700;
 font-size: 20px;
@@ -67,10 +75,64 @@ line-height: 30px;
     color: lightblue;
     text-decoration: none;
  }
-.container2 {
-    padding: 50px
+.container {
+    padding: 20px
 }
  section {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 100px 0;
+    
+   
  }
+ .grid {
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     text-align: center;
+     padding: 50px;
+ }
+ footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-right: 20px;
+  line-height: 24px;
+}
+main {
+    background-color: white;
+}
+
+main h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    color: tan;
+    opacity: 0.3;
+    text-transform: uppercase;
+}
+main h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #272044;
+
+}
+main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #272044;
+    opacity: 0.7;
+}
+.hou5{
+height: 300px;
+margin-top: 30px;
+}
+.grid2 {
+    display: grid;
+     grid-template-columns: 1fr ;
+     text-align: center;
+     padding: 32px;
+}
