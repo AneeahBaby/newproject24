@@ -160,6 +160,7 @@ section.secondary {
 .card {
     background-color: white;
     margin: 30px;
+    text-align: center;
 }
 
 .card h4 {
@@ -173,5 +174,7 @@ section.secondary {
     display: block;
     letter-spacing: 3px;
     font-weight: 300px;
-    
+}
+p {
+    text-align: center;
 }
