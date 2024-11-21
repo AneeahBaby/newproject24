@@ -178,3 +178,11 @@ section.secondary {
 p {
     text-align: center;
 }
+.img-responsive {
+    width: 100%;
+}
+
+.embed {
+ width: 100%;
+ aspect-ratio: 1/1;
+}
