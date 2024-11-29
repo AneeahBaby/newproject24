@@ -45,17 +45,17 @@ header {
     padding: 16px;
     display: inline-block;
  }
- @media(max-width: 800px) {
+ @media(max-width: 600px) {
     header {
         padding: 60px 0;
     }
- }
+}
  footer {
     color: azure;
     background-image: linear-gradient(rgba(39,32,68,0.8), rgba(39,32,68,0.9)), url("../images/houston3.jpeg");
     background-repeat: no repeat;
     background-size: cover;
-    padding: 100px, 0px;
+    padding: 260px, 0px;
 
  }
  footer ul {
@@ -192,3 +192,5 @@ p {
 .newone {
     background-color: rgb(101, 93, 79);
 }
+
+ 
